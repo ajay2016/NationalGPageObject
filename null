@@ -1,0 +1,14 @@
+1615247207436	geckodriver	INFO	Listening on 127.0.0.1:15893
+1615247207934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ajayr\\AppData\\Local\\Temp\\rust_mozprofileJarf5A"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615247211973	Marionette	INFO	Listening on port 50639
+1615247212132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615247212145	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://3982197.fls.doubleclick.net/ddm/fls/r/src=3982197;type=natio005;cat=getst000;ord=1;num=7758627985161;gtm=2wg2o0;auiddc=101274681.1615247215;~oref=https%3A%2F%2Fwww.nationalguard.com%2Fget-started, line 2: ReferenceError: fbq is not defined
+JavaScript error: https://3982197.fls.doubleclick.net/ddm/fls/r/src=3982197;type=natio005;cat=getst000;ord=1;num=7758627985161;gtm=2wg2o0;auiddc=101274681.1615247215;~oref=https%3A%2F%2Fwww.nationalguard.com%2Fget-started, line 4: SyntaxError: illegal character U+2018
+JavaScript error: https://3982197.fls.doubleclick.net/ddm/fls/r/src=3982197;type=natio005;cat=getst000;ord=1;num=7758627985161;gtm=2wg2o0;auiddc=101274681.1615247215;~oref=https%3A%2F%2Fwww.nationalguard.com%2Fget-started, line 7: ReferenceError: twttr is not defined
+1615247230209	Marionette	INFO	Stopped listening on port 50639
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

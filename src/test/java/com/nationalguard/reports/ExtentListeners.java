@@ -1,9 +1,13 @@
 package com.nationalguard.reports;
 
 import java.io.IOException;
+
 import java.util.Arrays;
 import java.util.Date;
 
+import javax.mail.MessagingException;
+
+import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -17,9 +21,7 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.nationalguard.base.BaseTest;
 
-
-
-
+import com.nationalguard.utilities.SendAttachmentInEmail;
 
 
 
@@ -31,6 +33,8 @@ public class ExtentListeners implements ITestListener {
 	private static ExtentReports extent = ExtentManager.createInstance(System.getProperty("user.dir")+"\\reports\\"+fileName);
 	
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
+	
+	static String messageBody;
 	
 
 	public void onTestStart(ITestResult result) {
@@ -103,7 +107,21 @@ public class ExtentListeners implements ITestListener {
 
 			extent.flush();
 		}
+		
+		
+		
+		SendAttachmentInEmail mail = new SendAttachmentInEmail();
+		mail.sendattachmentinemail(System.getProperty("user.dir")+"//reports//"+fileName);
+	
 
 	}
+	
+public void onFinish(ISuite suite) throws IOException, MessagingException {
+	
+	
 
+		
+	
+
+}
 }

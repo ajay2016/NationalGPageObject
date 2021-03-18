@@ -29,7 +29,7 @@ public class SendAttachmentInEmail {
 		String from = "ajay.skiva@gmail.com";
 
 		final String username = "ajay.skiva";// change accordingly
-		final String password = "bijana94";// change accordingly
+		final String password = ".........";// change accordingly
 
 		Properties properties = new Properties();
 		properties.put("mail.smtp.auth", "true");

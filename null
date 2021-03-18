@@ -1,7 +1,15 @@
-1615942963544	geckodriver	INFO	Listening on 127.0.0.1:4255
-1615942964061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ajayr\\AppData\\Local\\Temp\\rust_mozprofileHYGtc4"
+1616027518232	geckodriver	INFO	Listening on 127.0.0.1:35739
+1616027518720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ajayr\\AppData\\Local\\Temp\\rust_mozprofileuXTpaS"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616027521637	Marionette	INFO	Listening on port 50996
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1615942967056	Marionette	INFO	Listening on port 59211
-1615942967266	Marionette	WARN	TLS certificate errors will be ignored for this session
-1615942967287	Marionette	ERROR	[18] No reply from Marionette:Register
+1616027521934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616027521946	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://3982197.fls.doubleclick.net/ddm/fls/r/src=3982197;type=natio005;cat=getst000;ord=1;num=1616725529500;gtm=2wg3a0;auiddc=730998647.1616027525;~oref=https%3A%2F%2Fwww.nationalguard.com%2Fget-started, line 2: ReferenceError: fbq is not defined
+JavaScript error: https://3982197.fls.doubleclick.net/ddm/fls/r/src=3982197;type=natio005;cat=getst000;ord=1;num=1616725529500;gtm=2wg3a0;auiddc=730998647.1616027525;~oref=https%3A%2F%2Fwww.nationalguard.com%2Fget-started, line 4: SyntaxError: illegal character U+2018
+JavaScript error: https://3982197.fls.doubleclick.net/ddm/fls/r/src=3982197;type=natio005;cat=getst000;ord=1;num=1616725529500;gtm=2wg3a0;auiddc=730998647.1616027525;~oref=https%3A%2F%2Fwww.nationalguard.com%2Fget-started, line 7: ReferenceError: twttr is not defined
+1616027540848	Marionette	INFO	Stopped listening on port 50996
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
